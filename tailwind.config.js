@@ -1,9 +1,16 @@
 module.exports = {
   mode: 'jit',
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', 
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'light-primary':'#E5E7EB',
+        'light-secondary':'#D1D5DB',
+        'dark-primary':'#1F2937',
+        'dark-secondary':'#111827'
+      }
+    },
   },
   variants: {
     extend: {},
