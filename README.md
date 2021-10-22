@@ -1,4 +1,4 @@
-Demo Project for this blog
+Demo Project for [this](https://anish-mendiratta.hashnode.dev/implement-dark-mode-in-your-nextjs-app-using-tailwindcss) blog
 
 ## Installation
 * `git clone https://github.com/anishm10/next-dark-mode.git`
